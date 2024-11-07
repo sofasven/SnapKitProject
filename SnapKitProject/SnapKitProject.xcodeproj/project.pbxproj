@@ -48,7 +48,6 @@
 				A24630F3B19B12F5698CF624 /* Pods-SnapKitProject.debug.xcconfig */,
 				A373B517B9F728B51A240849 /* Pods-SnapKitProject.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -81,15 +80,39 @@
 		C7D4128A2CDA394E00B17D50 /* SnapKitProject */ = {
 			isa = PBXGroup;
 			children = (
-				C7D4128B2CDA394E00B17D50 /* AppDelegate.swift */,
-				C7D4128D2CDA394E00B17D50 /* SceneDelegate.swift */,
-				C7D4128F2CDA394E00B17D50 /* ViewController.swift */,
-				C7D412912CDA394E00B17D50 /* Main.storyboard */,
-				C7D412942CDA395000B17D50 /* Assets.xcassets */,
-				C7D412962CDA395000B17D50 /* LaunchScreen.storyboard */,
+				C7D412A32CDD56D400B17D50 /* App */,
+				C7D412A42CDD56DB00B17D50 /* Controller */,
+				C7D412A52CDD56E500B17D50 /* Views */,
 				C7D412992CDA395000B17D50 /* Info.plist */,
+				C7D412942CDA395000B17D50 /* Assets.xcassets */,
 			);
 			path = SnapKitProject;
+			sourceTree = "<group>";
+		};
+		C7D412A32CDD56D400B17D50 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				C7D4128B2CDA394E00B17D50 /* AppDelegate.swift */,
+				C7D4128D2CDA394E00B17D50 /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		C7D412A42CDD56DB00B17D50 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C7D4128F2CDA394E00B17D50 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		C7D412A52CDD56E500B17D50 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C7D412912CDA394E00B17D50 /* Main.storyboard */,
+				C7D412962CDA395000B17D50 /* LaunchScreen.storyboard */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
